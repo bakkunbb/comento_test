@@ -2,7 +2,7 @@
 
 require_once './head.php';
 
-session_destroy();
+session_destroy(); //index 페이지에 온 경우 로그아웃으로 간주
 
 ?>
 
